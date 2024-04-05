@@ -1,11 +1,17 @@
 public class Main {
     public static void main(String[] args) {
+        int i = 0;
+        int sum = 0;
+        do {i++;
+            sum += i;
+            System.out.println(i + sum);}
+        while (i % 2== 0 || i% 3 !=0);
 
-        for (int i = 1; i <= 2; i++) {
+
+
+//int i = 0; i <= 45;
 //loop of j
-            for (int j = 1; j <= 3; j++) {
-                System.out.println(i + " " + j);
-            }
+
+
         }
     }
-}
