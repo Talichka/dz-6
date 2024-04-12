@@ -1,17 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        int i = 0;
-        int sum = 0;
-        do {i++;
-            sum += i;
-            System.out.println(i + sum);}
-        while (i % 2== 0 || i% 3 !=0);
-
-
-
-//int i = 0; i <= 45;
-//loop of j
-
+       List<Integer> myList = new ArrayList<Integer>() {
+           {
+               add(1);
+               add(2);
+           }
+       };
+           myList.forEach(el -> System.out.println(el));}
 
         }
-    }
+
